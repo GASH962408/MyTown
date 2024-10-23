@@ -1,0 +1,24 @@
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding-top: 60px; /* Ajusta según la altura del header */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}

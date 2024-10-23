@@ -1,27 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Inicio from './Inicio';
-import Pagina1 from './Pagina1';
-import Pagina2 from './Pagina2';
+import Header from './components/Header/Header';
+import Sidebar from './components/Siderbar/Sidebar';
+import './App.css'; // Si deseas agregar estilos
 
 function App() {
   return (
-    <Router>
-      <Header />
+    <div className="app">
+      <Header/>
       <div className="main-container">
         <Sidebar />
         <div className="content">
-          <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/pagina1" element={<Pagina1 />} />
-            <Route path="/pagina2" element={<Pagina2 />} />
-            {/* Agrega más rutas según necesites */}
-          </Routes>
         </div>
       </div>
-    </Router>
+    </div>
   );
 }
 
