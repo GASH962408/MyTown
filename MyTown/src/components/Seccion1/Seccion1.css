@@ -1,0 +1,9 @@
+.boton{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(45, 94, 186);
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: 3rem;
+  cursor: pointer;
+}

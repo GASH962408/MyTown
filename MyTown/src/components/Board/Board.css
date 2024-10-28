@@ -1,0 +1,6 @@
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 5px;
+}
